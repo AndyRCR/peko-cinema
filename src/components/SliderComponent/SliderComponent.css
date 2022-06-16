@@ -1,0 +1,6 @@
+.sliderGozu{
+    min-height: 70vh;
+    overflow-x: hidden;
+    box-shadow:  10px 10px 20px #686868,
+        -10px -10px 20px #686868;
+}

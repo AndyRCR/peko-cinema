@@ -1,0 +1,48 @@
+.movieContainer{
+    padding: 0 10px;
+}
+
+.movieContainer img{
+    width: 100%;
+    transition: 0.2s;
+}
+
+.movieContainer .imgContainer{
+    width: 100%;
+    height: 340px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.movieContainer .imgContainer:hover{
+    transform: scale(1.05);
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.movieContainer .buyButton{
+    transition: 0.2s;
+    background-color: #FF1616;
+    text-transform: none !important;
+    padding: 8px 25px;
+    border-radius: 25px;
+}
+
+.movieContainer .buyButton:hover{
+    background-color: #a30f0f;
+    box-shadow: #FF1616 0px 0px 7px 0px;
+}
+
+.movieContainer .ticketIcon{margin-right: 5px;}
+
+.movieContainer h3{
+    margin-bottom: 0;
+}
+
+.movieContainer .info{
+    margin-top: 8px;
+    font-size: 16px;
+}

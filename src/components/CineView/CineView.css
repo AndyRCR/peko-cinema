@@ -1,0 +1,52 @@
+.cineView{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    padding-top: 78px;
+    
+}
+
+.cineView .cineViewFlexContainer{
+    width: 80%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 40px;
+}
+
+.cineView .cineContainer{
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    padding-top: 0;
+}
+
+.cineView .cine{
+    width: calc(100%/3);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cineView img{
+    width: 100%;
+}
+
+.cineView .nombre{
+    font-size: 20px;
+    text-align: center;
+    color: #B5121C;
+    font-weight: bold;
+}
+
+.cineView .ubicacion{
+    font-style: italic;
+    text-align: center;
+}
+
+.cineView iframe{
+    width: 100%;
+    height: 350px;
+}

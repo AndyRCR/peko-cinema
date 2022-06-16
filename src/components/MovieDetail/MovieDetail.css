@@ -1,0 +1,83 @@
+.movieDetail{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.movieDetail .movieDetailFlexContainer{
+    width: 55%;
+    padding: 30px;
+}
+
+.movieDetail .movieHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.movieDetail .movieHeader h1{
+    font-size: 60px;
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.movieDetail .buyButton{
+    transition: 0.2s;
+    background-color: #FF1616;
+    text-transform: none !important;
+    height: fit-content;
+    padding: 8px 25px;
+    border-radius: 25px;
+}
+
+.movieDetail .buyButton:hover{
+    background-color: #a30f0f;
+    box-shadow: #FF1616 0px 0px 7px 0px;
+}
+
+.movieDetail .ticketIcon{margin-right: 5px;}
+
+.movieDetail .imgContainer{
+    padding: 0 50px 20px;
+    width: 50%;
+}
+
+.movieDetail .infoContainer{
+    width: 50%;
+}
+
+.movieDetail img{
+    width: 100%;
+}
+
+.movieDetail .movieSinopsis{
+    display: flex;
+    padding: 40px;
+}
+
+.movieDetail h1,
+.movieDetail h2,
+.movieDetail h4{color: #B5121C;}
+
+.movieDetail h2,
+.movieDetail h4{
+    margin: 20px 0 10px;
+}
+
+.movieDetail h2{
+    font-size: 50px;
+    margin-top: 0;
+}
+
+.movieDetail .languages{
+    display: flex;
+}
+
+.movieDetail .languageItem{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px 20px;
+    margin-right: 20px;
+    user-select: none;
+    font-size: 12px;
+}

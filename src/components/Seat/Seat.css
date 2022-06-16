@@ -1,0 +1,23 @@
+.unmarked{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.marked{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: none;
+    background-color: #FF1616;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

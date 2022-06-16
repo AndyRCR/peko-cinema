@@ -1,0 +1,48 @@
+.form{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form .formsContainer{
+    display: flex;
+
+}
+
+.form .firstForm,
+.form .secondForm{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form .formItem{
+    margin: 15px 0;
+    min-width: 60%;
+}
+
+.form .buttonContainer{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.form button{
+    width: 150px;
+    transition: 0.2s;
+    background-color: #FF1616;
+    text-transform: none !important;
+    padding: 8px 25px;
+    border-radius: 25px;
+}
+
+.form button:hover{
+    background-color: #a30f0f;
+    box-shadow: #FF1616 0px 0px 7px 0px;
+}
+
+.swal2-styled.swal2-confirm{
+    background-color: #FF1616 !important;
+}

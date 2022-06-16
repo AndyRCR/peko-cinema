@@ -5,9 +5,22 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  background: url('https://i.ibb.co/1LwvvFf/cinema-background-pattern-1061-522-1.png') repeat 0 0;
+  background-size: calc(1145px/3);
+  background-repeat: repeat;
+  animation: bg-scrolling-reverse 5s infinite;
+  animation-timing-function: linear;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@-webkit-keyframes bg-scrolling-reverse {
+  100% {
+    background-position: calc(1145px/3) calc(1215px / 3);
+  }
+}
+
+@keyframes bg-scrolling-reverse {
+  100% {
+    background-position: calc(1145px/3) calc(1215px / 3);
+  }
 }

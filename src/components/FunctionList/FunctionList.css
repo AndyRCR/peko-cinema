@@ -1,0 +1,32 @@
+.functionList{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding: 30px;
+}
+
+.functionList .functionsFlexContainer{
+    width: 55%;
+}
+
+.functionList .accordionItem{
+    width: 55%;
+    margin: 10px !important;
+    background-color: #F6F6F6;
+}
+
+.functionList .accordionDetails{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.functionList h3{
+    color: #B5121C;
+    margin: 0;
+}
+
+.functionList h1{
+    grid-column: 1/5;
+    margin: 0;
+}

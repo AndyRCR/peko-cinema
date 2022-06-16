@@ -1,0 +1,31 @@
+.dulceriaContainer{
+    margin-top: 78px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.dulceriaFlexContainer{
+    padding: 0 30px 30px 30px;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e7ecf0;
+}
+
+.dulceriaContainer .nextButton{
+    background-color: #F2374C;
+    padding: 8px 30px;
+    border-radius: 15px;
+}
+
+.dulceriaContainer .nextButton:hover{
+    background-color: #B5121C;
+}
+
+.dulceriaContainer .nextIcon{
+    margin-right: 10px;
+}

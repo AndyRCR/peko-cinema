@@ -1,0 +1,36 @@
+.function{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #B5121C;
+    border-radius: 15px;
+    color: white;
+    padding: 5px;
+    user-select: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.function a{
+    color: white;
+    text-transform: none !important;
+    padding: 0;
+}
+
+.function:hover{
+    background-color: #8b0710;
+}
+
+.function .functionInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.function .dateInfo{
+    font-size: 14px;
+}
+
+.function .seatsInfo{
+    font-size: 12px;
+}

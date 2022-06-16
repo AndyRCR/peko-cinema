@@ -1,0 +1,42 @@
+.filterContainer{
+    display: flex;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 50px;
+    background: #fafafa;
+    box-shadow:  -10px -10px 30px #292929;
+}
+
+.filterContainer h3{
+    margin: 0;
+}
+
+.filterContainer .filterItem{
+    padding: 15px 30px;
+    border-right: 1px solid rgb(206, 206, 206);
+}
+
+.filterContainer .formControl{
+    min-width: 200px;
+}
+
+.filterContainer .filterButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.filterContainer button{
+    background-color: #FF1616;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.filterContainer button:hover{
+    background-color: #a30f0f;
+}
+
+.filterContainer .filterIcon{
+    margin: 0 10px;
+}

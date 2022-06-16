@@ -1,0 +1,42 @@
+.functionSeats{
+    width: 70%;
+    background-color: #E7ECF0;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.functionSeats img{
+    width: 100%;
+}
+
+.functionSeats .seatsContainer{
+    display: grid;
+    grid-template-columns: repeat(5, 50px);
+    grid-template-rows: repeat(4, 50px);
+    grid-gap: 40px;
+}
+
+.functionSeats .buttonContainer{
+    width: 100%;
+    margin-top: 50px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.functionSeats .nextButton{
+    background-color: #F2374C;
+    padding: 8px 30px;
+    border-radius: 15px;
+}
+
+.functionSeats .nextButton:hover{
+    background-color: #B5121C;
+}
+
+.functionSeats .nextIcon{
+    margin-right: 10px;
+}

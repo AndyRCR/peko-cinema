@@ -1,0 +1,42 @@
+.functionViewCart{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f6f6f6;
+}
+
+.functionViewCart .imgContainer{
+    width: 250px;
+    height: 250px;
+    background-position: center;
+    background-size: 250px;
+    border-radius: 50%;
+    margin-top: 80px;
+}
+
+.functionViewCart .functionInfo{
+    width: 80%;
+}
+
+.functionViewCart .functionInfo > div{
+    margin: 10px 0;
+}
+
+.functionViewCart .movieName,
+.functionViewCart .price{
+    font-size: 24px;
+    font-weight: bold;
+    color: #ab1313;
+}
+
+.functionViewCart .sede{
+    font-size: 20px;
+    font-weight: bold;
+    color: #ab1313;
+}
+
+.functionViewCart .icon{
+    margin-right: 15px;
+}

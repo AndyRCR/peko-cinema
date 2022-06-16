@@ -1,0 +1,40 @@
+.dulce{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.dulce .dulceTitle,
+.dulce .price{
+    font-size: 16px;
+    font-weight: bold;
+    color: #B5121C;
+    margin-bottom: 8px;
+}
+
+.dulce .price{text-align: right;}
+
+.dulce .imgContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.dulce .dulceDescription{
+    font-style: italic;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.dulce .counterContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.Mui-checked{
+    color: #B5121C !important;
+}

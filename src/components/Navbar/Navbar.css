@@ -1,0 +1,36 @@
+.navbarContainer{
+    position: fixed;
+    z-index: 10;
+    display: flex;
+    height: 80px;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.navbarContainer img{
+    max-height: 50px;
+}
+
+.navbarContainer ul{
+    display: flex;
+    list-style: none;
+}
+
+.navbarContainer .navLink{
+    margin: 0 30px;
+}
+
+.navbarContainer .activeNavLink{
+    border-bottom: 2px solid #fff;
+    margin: 0 30px;
+}
+
+.navbarContainer a{
+    text-decoration: none;
+    color: #fff;
+}
