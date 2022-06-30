@@ -54,14 +54,14 @@ const Form = () => {
     }
 
     const sendData = async () => {
-        if (formValue.buyer.name == '' ||
-            formValue.buyer.lastName == '' ||
-            formValue.buyer.email == '' ||
-            formValue.buyer.phone == '' ||
-            targetInfo.targetNumber == '' ||
-            targetInfo.cvv == '' ||
-            targetInfo.month == '' ||
-            targetInfo.year == ''
+        if (formValue.buyer.name === '' ||
+            formValue.buyer.lastName === '' ||
+            formValue.buyer.email === '' ||
+            formValue.buyer.phone === '' ||
+            targetInfo.targetNumber === '' ||
+            targetInfo.cvv === '' ||
+            targetInfo.month === '' ||
+            targetInfo.year === ''
         ) {
             Swal.fire(
                 'Información',

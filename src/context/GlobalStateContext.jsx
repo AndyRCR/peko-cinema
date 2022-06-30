@@ -1,4 +1,4 @@
-import { addDoc, collection, doc, endAt, getDoc, getDocs, orderBy, query, startAt, where } from 'firebase/firestore'
+import { addDoc, collection, doc, endAt, getDoc, getDocs, orderBy, query, startAt } from 'firebase/firestore'
 import React, { createContext, useState } from 'react'
 import { db } from '../service/Firebase'
 import Swal from 'sweetalert2'
@@ -96,7 +96,7 @@ const GlobalStateContext = ({ children }) => {
                 ...doc.data(),
             })
             if (res.length > 0) {
-                if (res[0].cvv == cvv && res[0].month == month && res[0].year == year) {
+                if (res[0].cvv === cvv && res[0].month === month && res[0].year === year) {
                     const col = collection(db, 'orders')
                     const order = await addDoc(col, formValue)
                     emailjs.send('service_4gfz4ub', 'template_lkdxwqs', {
