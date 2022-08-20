@@ -1,6 +1,25 @@
 .movieList{
     padding: 50px 10px;
     display: grid;
-    grid-template-columns: repeat(4 , 1fr);
+    grid-template-columns: repeat(4 , minmax(250px, 25%));
     grid-gap: 15px;
+}
+
+@media (max-width: 1500px){
+    .movieList{
+        grid-template-columns: repeat(3 , minmax(250px, calc(100%/3)));
+    }
+}
+
+@media (max-width: 1000px){
+    .movieList{
+        grid-template-columns: repeat(2 , 50%);
+    }
+}
+
+@media (max-width: 800px){
+    .movieList{
+        grid-template-columns: 350px;
+        justify-content: center;
+    }
 }

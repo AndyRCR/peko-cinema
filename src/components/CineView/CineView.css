@@ -1,7 +1,6 @@
 .cineView{
     display: flex;
     justify-content: center;
-    height: 100vh;
     padding-top: 78px;
     
 }
@@ -30,8 +29,17 @@
     justify-content: space-between;
 }
 
+.cineView .imgContainer{
+    display: flex;
+    align-items: center;
+}
+
 .cineView img{
     width: 100%;
+}
+
+.cineView .cineDirection{
+    margin: 20px 0;
 }
 
 .cineView .nombre{
@@ -49,4 +57,80 @@
 .cineView iframe{
     width: 100%;
     height: 350px;
+}
+
+@media (max-width: 1400px){
+    .cineView .cineContainer{
+        flex-direction: column;
+    }
+
+    .cineView .cine{
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .cineView .cineInfo{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .cineView .mapa{
+        width: 60%;
+        padding: 0 30px;
+        max-height: 300px;
+    }
+
+    .cineView iframe{
+        height: 100%;
+    }
+}
+
+@media (max-width: 800px){
+    .cineView .cineContainer{
+        padding: 0;
+    }
+
+    .cineView .cine {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cineView .cineInfo{
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .cineView .mapa{
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .cineView .imgContainer,
+    .cineView .cineDirection{
+        width: 50%;
+    }
+
+    .cineView .cineDirection{
+        padding: 0 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .cineView .nombre{
+        font-size: 16px;
+    }
+    
+    .cineView .ubicacion{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 600px){
+    .cineView .cineViewFlexContainer {
+        width: 100%;
+        padding: 10px 15px;
+    }
 }
